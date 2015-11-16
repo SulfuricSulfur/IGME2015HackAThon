@@ -1,0 +1,803 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <app-id></app-id>
+    <unique-id>3phjf8c2bcezm</unique-id>
+    <saved-with-version>21600</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="gamepad" version="1">Gamepad</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>1024</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>TitleScreen</first-layout>
+    <use-loader-layout>1</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Hide address bar">No</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Preview browser">Firefox</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use iOS retina display">All devices</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Player" sid="5433163612946763">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="Seconds until you can fire" name="fireTimer" sid="6553171006466737" type="number" />
+                <instance-variable name="StunTimer" sid="7752962202142981" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="5236372408767231">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="792598327593773">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9195817772708239" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.625" y="0.53125" />
+                        <collision-poly>
+                            <point x="0.207031" y="0.0234375" />
+                            <point x="0.640625" y="0.0234375" />
+                            <point x="0.628906" y="0.933594" />
+                            <point x="0.203125" y="0.933594" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="10" loop="0" name="Walking" pingpong="0" repeatcount="1" repeatto="0" sid="2781611654857877" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.625" y="0.53125" />
+                        <collision-poly>
+                            <point x="0.207031" y="0.0234375" />
+                            <point x="0.640625" y="0.0234375" />
+                            <point x="0.628906" y="0.933594" />
+                            <point x="0.203125" y="0.933594" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.625" y="0.53125" />
+                        <collision-poly>
+                            <point x="0.207031" y="0.0234375" />
+                            <point x="0.640625" y="0.0234375" />
+                            <point x="0.628906" y="0.933594" />
+                            <point x="0.203125" y="0.933594" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.625" y="0.53125" />
+                        <collision-poly>
+                            <point x="0.207031" y="0.0234375" />
+                            <point x="0.640625" y="0.0234375" />
+                            <point x="0.628906" y="0.933594" />
+                            <point x="0.203125" y="0.933594" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.625" y="0.53125" />
+                        <collision-poly>
+                            <point x="0.207031" y="0.0234375" />
+                            <point x="0.640625" y="0.0234375" />
+                            <point x="0.628906" y="0.933594" />
+                            <point x="0.203125" y="0.933594" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.625" y="0.53125" />
+                        <collision-poly>
+                            <point x="0.207031" y="0.0234375" />
+                            <point x="0.640625" y="0.0234375" />
+                            <point x="0.628906" y="0.933594" />
+                            <point x="0.203125" y="0.933594" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.625" y="0.53125" />
+                        <collision-poly>
+                            <point x="0.207031" y="0.0234375" />
+                            <point x="0.640625" y="0.0234375" />
+                            <point x="0.628906" y="0.933594" />
+                            <point x="0.203125" y="0.933594" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.625" y="0.53125" />
+                        <collision-poly>
+                            <point x="0.207031" y="0.0234375" />
+                            <point x="0.640625" y="0.0234375" />
+                            <point x="0.628906" y="0.933594" />
+                            <point x="0.203125" y="0.933594" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.625" y="0.53125" />
+                        <collision-poly>
+                            <point x="0.207031" y="0.0234375" />
+                            <point x="0.640625" y="0.0234375" />
+                            <point x="0.628906" y="0.933594" />
+                            <point x="0.203125" y="0.933594" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.625" y="0.53125" />
+                        <collision-poly>
+                            <point x="0.207031" y="0.0234375" />
+                            <point x="0.640625" y="0.0234375" />
+                            <point x="0.628906" y="0.933594" />
+                            <point x="0.203125" y="0.933594" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.625" y="0.53125" />
+                        <collision-poly>
+                            <point x="0.207031" y="0.0234375" />
+                            <point x="0.640625" y="0.0234375" />
+                            <point x="0.628906" y="0.933594" />
+                            <point x="0.203125" y="0.933594" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SolidTile" sid="2215009378119197">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1720174215562616">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="Keyboard" sid="3559908636507776">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Player1_Info" sid="9201252540136785">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="Score" sid="7646955712000337" type="number" />
+                <instance-variable name="NextFruit" sid="3253819297499982" type="string" />
+            </instance-variables>
+        </object-type>
+        <object-type name="Player2" sid="5266664103090185">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="seconds until you can fire" name="fireTimer" sid="5036833843167429" type="number" />
+                <instance-variable name="StunTimer" sid="5372895603965148" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="4425371342007842">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="4210968770752496">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8222793753303158" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.65625" y="0.5" />
+                        <collision-poly>
+                            <point x="0.121094" y="0" />
+                            <point x="0.769531" y="0.00390625" />
+                            <point x="0.769531" y="0.910156" />
+                            <point x="0.121094" y="0.914063" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="10" loop="0" name="Walking" pingpong="0" repeatcount="1" repeatto="0" sid="4324786771228819" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.65625" y="0.5" />
+                        <collision-poly>
+                            <point x="0.121094" y="0" />
+                            <point x="0.769531" y="0.00390625" />
+                            <point x="0.769531" y="0.910156" />
+                            <point x="0.121094" y="0.914063" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.65625" y="0.5" />
+                        <collision-poly>
+                            <point x="0.121094" y="0" />
+                            <point x="0.769531" y="0.00390625" />
+                            <point x="0.769531" y="0.910156" />
+                            <point x="0.121094" y="0.914063" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.65625" y="0.5" />
+                        <collision-poly>
+                            <point x="0.121094" y="0" />
+                            <point x="0.769531" y="0.00390625" />
+                            <point x="0.769531" y="0.910156" />
+                            <point x="0.121094" y="0.914063" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.65625" y="0.5" />
+                        <collision-poly>
+                            <point x="0.121094" y="0" />
+                            <point x="0.769531" y="0.00390625" />
+                            <point x="0.769531" y="0.910156" />
+                            <point x="0.121094" y="0.914063" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.65625" y="0.5" />
+                        <collision-poly>
+                            <point x="0.121094" y="0" />
+                            <point x="0.769531" y="0.00390625" />
+                            <point x="0.769531" y="0.910156" />
+                            <point x="0.121094" y="0.914063" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.65625" y="0.5" />
+                        <collision-poly>
+                            <point x="0.121094" y="0" />
+                            <point x="0.769531" y="0.00390625" />
+                            <point x="0.769531" y="0.910156" />
+                            <point x="0.121094" y="0.914063" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.65625" y="0.5" />
+                        <collision-poly>
+                            <point x="0.121094" y="0" />
+                            <point x="0.769531" y="0.00390625" />
+                            <point x="0.769531" y="0.910156" />
+                            <point x="0.121094" y="0.914063" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.65625" y="0.5" />
+                        <collision-poly>
+                            <point x="0.121094" y="0" />
+                            <point x="0.769531" y="0.00390625" />
+                            <point x="0.769531" y="0.910156" />
+                            <point x="0.121094" y="0.914063" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.65625" y="0.5" />
+                        <collision-poly>
+                            <point x="0.121094" y="0" />
+                            <point x="0.769531" y="0.00390625" />
+                            <point x="0.769531" y="0.910156" />
+                            <point x="0.121094" y="0.914063" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1.65625" y="0.5" />
+                        <collision-poly>
+                            <point x="0.121094" y="0" />
+                            <point x="0.769531" y="0.00390625" />
+                            <point x="0.769531" y="0.910156" />
+                            <point x="0.121094" y="0.914063" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Cashier" sid="9712169405152102">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1239518470382849" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="K:\REGISTER.png">
+                        <collision-poly>
+                            <point x="0.054" y="0.054" />
+                            <point x="0.5" y="0.322" />
+                            <point x="0.824" y="0.176" />
+                            <point x="0.918" y="0.5" />
+                            <point x="0.91" y="0.91" />
+                            <point x="0.5" y="0.954" />
+                            <point x="0.062" y="0.938" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Banana" sid="5792595100509923">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5621472967055595" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\banner.main.ad.rit.edu\students\jxt1607\IGMProfile\Desktop\GitHub\IGMERepo\Content\Banana.png">
+                        <collision-poly>
+                            <point x="0.59" y="0.59" />
+                            <point x="0.5" y="0.636" />
+                            <point x="0.874" y="0.126" />
+                            <point x="0.966" y="0.5" />
+                            <point x="0.762" y="0.762" />
+                            <point x="0.5" y="0.856" />
+                            <point x="0.17" y="0.83" />
+                            <point x="0.704" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WaterMelon" sid="4310825088779857">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5076962595096311" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\banner.main.ad.rit.edu\students\jxt1607\IGMProfile\Desktop\GitHub\IGMERepo\Content\WatermelonStill.png">
+                        <collision-poly>
+                            <point x="0.19" y="0.19" />
+                            <point x="0.5" y="0.122" />
+                            <point x="0.812" y="0.188" />
+                            <point x="0.998" y="0.5" />
+                            <point x="0.902" y="0.902" />
+                            <point x="0.5" y="0.998" />
+                            <point x="0.076" y="0.924" />
+                            <point x="0.002" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Grape" sid="5762071280475877">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8560154089932865" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\banner.main.ad.rit.edu\students\jxt1607\IGMProfile\Desktop\GitHub\IGMERepo\Content\grape.png">
+                        <collision-poly>
+                            <point x="0.194" y="0.194" />
+                            <point x="0.5" y="0.044" />
+                            <point x="0.82" y="0.18" />
+                            <point x="0.922" y="0.5" />
+                            <point x="0.83" y="0.83" />
+                            <point x="0.5" y="0.956" />
+                            <point x="0.198" y="0.802" />
+                            <point x="0.124" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Orange" sid="3958694014844569">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4987475113721668" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\banner.main.ad.rit.edu\students\jxt1607\IGMProfile\Desktop\GitHub\IGMERepo\Content\OrangeStill.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Carrot" sid="2014182454956165">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9732903089217569" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\banner.main.ad.rit.edu\students\jxt1607\IGMProfile\Desktop\GitHub\IGMERepo\Content\Carrot.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FoodSpawner" sid="2401425356270434">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="fruitChoice" sid="7049574785210082" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7179367212369671" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="Player1Fruit" sid="6165624155139626">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type global="1" name="Player2Fruit" sid="3706898878642452">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Apple" sid="5619136146911841">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8671997459719655" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\banner.main.ad.rit.edu\students\jxt1607\IGMProfile\Desktop\GitHub\IGMERepo\Content\apple.png">
+                        <collision-poly>
+                            <point x="0.242" y="0.242" />
+                            <point x="0.5" y="0.154" />
+                            <point x="0.76" y="0.24" />
+                            <point x="0.902" y="0.5" />
+                            <point x="0.784" y="0.784" />
+                            <point x="0.5" y="0.906" />
+                            <point x="0.194" y="0.806" />
+                            <point x="0.1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Banana_Bullet" sid="4240741053145719">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="1539554367299726">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="1729497022409649">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7471284677469006" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.52" original-source="\\banner.main.ad.rit.edu\students\jxt1607\IGMProfile\Desktop\GitHub\IGMERepo\Content\Banana.png">
+                        <collision-poly>
+                            <point x="0.511875" y="0.668125" />
+                            <point x="0.76875" y="0.49225" />
+                            <point x="0.874" y="0.126" />
+                            <point x="0.966" y="0.5" />
+                            <point x="0.762" y="0.762" />
+                            <point x="0.5" y="0.856" />
+                            <point x="0.17" y="0.83" />
+                            <point x="0.0508747" y="0.71875" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.52">
+                        <collision-poly>
+                            <point x="0.319375" y="0.49" />
+                            <point x="0.570251" y="0.828126" />
+                            <point x="0.874" y="0.874" />
+                            <point x="0.5" y="0.966" />
+                            <point x="0.238" y="0.762" />
+                            <point x="0.144" y="0.5" />
+                            <point x="0.17" y="0.17" />
+                            <point x="0.259375" y="0.0477499" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.52">
+                        <collision-poly>
+                            <point x="0.40375" y="0.36625" />
+                            <point x="0.1625" y="0.610875" />
+                            <point x="0.126" y="0.874" />
+                            <point x="0.034" y="0.5" />
+                            <point x="0.238" y="0.238" />
+                            <point x="0.5" y="0.144" />
+                            <point x="0.83" y="0.17" />
+                            <point x="0.924125" y="0.259375" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.52">
+                        <collision-poly>
+                            <point x="0.7025" y="0.500625" />
+                            <point x="0.40475" y="0.1625" />
+                            <point x="0.126" y="0.126" />
+                            <point x="0.5" y="0.034" />
+                            <point x="0.762" y="0.238" />
+                            <point x="0.856" y="0.5" />
+                            <point x="0.83" y="0.83" />
+                            <point x="0.768751" y="0.9335" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Carrot_Bullet" sid="9565211370501071">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="8742387686975104">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3541594704446137" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\banner.main.ad.rit.edu\students\jxt1607\IGMProfile\Desktop\GitHub\IGMERepo\Content\Carrot.png">
+                        <collision-poly>
+                            <point x="0.354" y="0.354" />
+                            <point x="0.5" y="0.38" />
+                            <point x="0.588" y="0.412" />
+                            <point x="0.988" y="0.5" />
+                            <point x="0.518" y="0.518" />
+                            <point x="0.478" y="0.522" />
+                            <point x="0.072" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Grape_Bullet" sid="2010324738195467">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="2122925203296838">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="4106511629854344">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6277527984537264" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.806" y="0.194" />
+                            <point x="0.956" y="0.5" />
+                            <point x="0.82" y="0.82" />
+                            <point x="0.5" y="0.922" />
+                            <point x="0.17" y="0.83" />
+                            <point x="0.044" y="0.5" />
+                            <point x="0.198" y="0.198" />
+                            <point x="0.5" y="0.124" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\banner.main.ad.rit.edu\students\jxt1607\IGMProfile\Desktop\GitHub\IGMERepo\Content\grape.png">
+                        <collision-poly>
+                            <point x="0.194" y="0.194" />
+                            <point x="0.5" y="0.044" />
+                            <point x="0.82" y="0.18" />
+                            <point x="0.922" y="0.5" />
+                            <point x="0.83" y="0.83" />
+                            <point x="0.5" y="0.956" />
+                            <point x="0.198" y="0.802" />
+                            <point x="0.124" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.806" y="0.194" />
+                            <point x="0.956" y="0.5" />
+                            <point x="0.82" y="0.82" />
+                            <point x="0.5" y="0.922" />
+                            <point x="0.17" y="0.83" />
+                            <point x="0.044" y="0.5" />
+                            <point x="0.198" y="0.198" />
+                            <point x="0.5" y="0.124" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.806" y="0.806" />
+                            <point x="0.5" y="0.956" />
+                            <point x="0.18" y="0.82" />
+                            <point x="0.078" y="0.5" />
+                            <point x="0.17" y="0.17" />
+                            <point x="0.5" y="0.044" />
+                            <point x="0.802" y="0.198" />
+                            <point x="0.876" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Orange_Bullet" sid="6736005082684816">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="ExpirationDate" sid="7988276828960342" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="3082996061092169">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4316641048152721" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\banner.main.ad.rit.edu\students\jxt1607\IGMProfile\Desktop\GitHub\IGMERepo\Content\OrangeStart.png">
+                        <collision-poly>
+                            <point x="0.276" y="0.276" />
+                            <point x="0.5" y="0.19" />
+                            <point x="0.728" y="0.272" />
+                            <point x="0.83" y="0.5" />
+                            <point x="0.738" y="0.738" />
+                            <point x="0.5" y="0.816" />
+                            <point x="0.254" y="0.746" />
+                            <point x="0.172" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\banner.main.ad.rit.edu\students\jxt1607\IGMProfile\Desktop\GitHub\IGMERepo\Content\OrangeFrame1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\banner.main.ad.rit.edu\students\jxt1607\IGMProfile\Desktop\GitHub\IGMERepo\Content\Orangeframe2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\banner.main.ad.rit.edu\students\jxt1607\IGMProfile\Desktop\GitHub\IGMERepo\Content\OrangeFrame3.png">
+                        <collision-poly>
+                            <point x="0.434" y="0.434" />
+                            <point x="0.5" y="0.338" />
+                            <point x="0.664" y="0.336" />
+                            <point x="0.998" y="0.5" />
+                            <point x="0.806" y="0.806" />
+                            <point x="0.5" y="0.846" />
+                            <point x="0.21" y="0.79" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WaterMelon_Bullet" sid="6432804534387606">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="1437253202387321">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8243667880149004" speed="1">
+                    <frame duration="1" hotspotX="0.525" hotspotY="0.525" original-source="\\banner.main.ad.rit.edu\students\jxt1607\IGMProfile\Desktop\GitHub\IGMERepo\Content\WatermelonStill.png">
+                        <image-point name="Imagepoint 1" x="0.525" y="0.525" />
+                        <collision-poly>
+                            <point x="0.19" y="0.19" />
+                            <point x="0.5" y="0.122" />
+                            <point x="0.812" y="0.188" />
+                            <point x="0.998" y="0.5" />
+                            <point x="0.902" y="0.902" />
+                            <point x="0.5" y="0.998" />
+                            <point x="0.076" y="0.924" />
+                            <point x="0.002" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.525" hotspotY="0.525">
+                        <image-point name="Imagepoint 1" x="0.525" y="0.525" />
+                        <collision-poly>
+                            <point x="0.19" y="0.19" />
+                            <point x="0.5" y="0.122" />
+                            <point x="0.812" y="0.188" />
+                            <point x="0.998" y="0.5" />
+                            <point x="0.902" y="0.902" />
+                            <point x="0.5" y="0.998" />
+                            <point x="0.076" y="0.924" />
+                            <point x="0.002" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.525" hotspotY="0.525">
+                        <image-point name="Imagepoint 1" x="0.525" y="0.525" />
+                        <collision-poly>
+                            <point x="0.19" y="0.19" />
+                            <point x="0.5" y="0.122" />
+                            <point x="0.812" y="0.188" />
+                            <point x="0.998" y="0.5" />
+                            <point x="0.902" y="0.902" />
+                            <point x="0.5" y="0.998" />
+                            <point x="0.076" y="0.924" />
+                            <point x="0.002" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Apple_Bullet" sid="6041313044069809">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="9303987521897335">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="1394816874956302">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1720281658221922" speed="5">
+                    <frame duration="1" hotspotX="0.55" hotspotY="0.55" original-source="\\banner.main.ad.rit.edu\students\jxt1607\IGMProfile\Desktop\GitHub\IGMERepo\Content\apple.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.9" y="0.15" />
+                            <point x="0.9" y="0.9" />
+                            <point x="0.15" y="0.9" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.45" hotspotY="0.55">
+                        <collision-poly>
+                            <point x="0.85" y="0.15" />
+                            <point x="0.85" y="0.9" />
+                            <point x="0.1" y="0.9" />
+                            <point x="0.1" y="0.15" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.45" hotspotY="0.45">
+                        <collision-poly>
+                            <point x="0.85" y="0.85" />
+                            <point x="0.1" y="0.85" />
+                            <point x="0.1" y="0.1" />
+                            <point x="0.85" y="0.1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.55" hotspotY="0.45">
+                        <collision-poly>
+                            <point x="0.15" y="0.85" />
+                            <point x="0.15" y="0.1" />
+                            <point x="0.9" y="0.1" />
+                            <point x="0.9" y="0.85" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WaterMelon_Explosion" sid="7698960381171817">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="7814831878813838">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6356149251714423" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503333" original-source="K:\IGMERepo\Content\splatatatatattatat.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Player2_Info" sid="4241676759566492">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="Score" sid="2982419974511821" type="number" />
+                <instance-variable name="NextFruit" sid="4593521348909353" type="string" />
+            </instance-variables>
+        </object-type>
+        <object-type name="Gamepad" sid="9154020643950952">
+            <plugin id="gamepad" />
+        </object-type>
+        <object-type name="Background" sid="4725571697519508">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5138485577707871" speed="5">
+                    <frame duration="1" hotspotX="0.50046" hotspotY="0.500575" original-source="K:\IGMERepo\Game.PNG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CountDown" sid="2786974165630058">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable comment="Time until Game is over" name="Time" sid="4599229345300912" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="TitleBackground" sid="8095090272881327">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="478373593796028" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="K:\IGMERepo\chaosssssss.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PlayBtn" sid="1430640163775994">
+            <plugin id="Button" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>MainGame.xml</layout>
+        <layout>TitleScreen.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="20" />
+        <global-instance type="Gamepad" uid="43">
+            <properties>
+                <analog-deadzone>25</analog-deadzone>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

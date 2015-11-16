@@ -1,0 +1,1764 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block any="1" sid="643470754935286">
+            <conditions>
+                <condition id="2" name="Key is down" sid="5659171473906345" type="Keyboard">
+                    <param id="0" name="Key">87 (W)</param>
+                </condition>
+                <condition id="3" name="Is button down" sid="8798199386941285" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Button">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="2233079709100153" type="Player">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="3285281755177561">
+            <conditions>
+                <condition id="2" name="Key is down" sid="4857448633114439" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+                <condition id="5" name="Compare axis" sid="9143948984067799" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Axis">0</param>
+                    <param id="2" name="Comparison">2</param>
+                    <param id="3" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="3538389409995367" type="Player">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="9203512007730896">
+            <conditions>
+                <condition id="2" name="Key is down" sid="9805940258019221" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+                <condition id="5" name="Compare axis" sid="4829899125690337" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Axis">0</param>
+                    <param id="2" name="Comparison">4</param>
+                    <param id="3" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="5406907970177026" type="Player">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="3478052945031893">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="2776643083163013" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+                <condition id="5" name="Compare axis" sid="9918454355780762" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Axis">0</param>
+                    <param id="2" name="Comparison">2</param>
+                    <param id="3" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="6251866510920675" type="Player">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="2928530415869761">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="1749401884855959" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+                <condition id="5" name="Compare axis" sid="3858657888828638" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Axis">0</param>
+                    <param id="2" name="Comparison">4</param>
+                    <param id="3" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="3057475110893044" type="Player">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="374269066029386">
+            <conditions>
+                <condition id="2" name="Key is down" sid="5542455107381251" type="Keyboard">
+                    <param id="0" name="Key">38 (Up arrow)</param>
+                </condition>
+                <condition id="3" name="Is button down" sid="4129603852074685" type="Gamepad">
+                    <param id="0" name="Gamepad">1</param>
+                    <param id="1" name="Button">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="1791744495624077" type="Player2">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="6332477563156108">
+            <conditions>
+                <condition id="2" name="Key is down" sid="9370500098911748" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+                <condition id="5" name="Compare axis" sid="7800507534552072" type="Gamepad">
+                    <param id="0" name="Gamepad">1</param>
+                    <param id="1" name="Axis">0</param>
+                    <param id="2" name="Comparison">2</param>
+                    <param id="3" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="6580040388978263" type="Player2">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="7251277083428507">
+            <conditions>
+                <condition id="2" name="Key is down" sid="9394962942752969" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+                <condition id="5" name="Compare axis" sid="7755289374577343" type="Gamepad">
+                    <param id="0" name="Gamepad">1</param>
+                    <param id="1" name="Axis">0</param>
+                    <param id="2" name="Comparison">4</param>
+                    <param id="3" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="7665396807864717" type="Player2">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="3910423720824316">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="3664493209843718" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+                <condition id="5" name="Compare axis" sid="246937950488199" type="Gamepad">
+                    <param id="0" name="Gamepad">1</param>
+                    <param id="1" name="Axis">0</param>
+                    <param id="2" name="Comparison">2</param>
+                    <param id="3" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="5084953751047668" type="Player2">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="3522938653605535">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="8820041632838084" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+                <condition id="5" name="Compare axis" sid="6476146430800483" type="Gamepad">
+                    <param id="0" name="Gamepad">1</param>
+                    <param id="1" name="Axis">0</param>
+                    <param id="2" name="Comparison">4</param>
+                    <param id="3" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="8622240979578748" type="Player2">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6757722842835497">
+            <conditions>
+                <condition id="-19" name="Pick all" sid="882883107600132" type="System">
+                    <param id="0" name="Object">FoodSpawner</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="3102592708015614" type="FoodSpawner">
+                    <param id="0" name="Instance variable">fruitChoice</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="9527690079302925" type="FoodSpawner">
+                    <param id="0" name="Object">Banana</param>
+                </condition>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="1854398590456605" type="FoodSpawner">
+                    <param id="0" name="Object">Apple</param>
+                </condition>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="6624758838559483" type="FoodSpawner">
+                    <param id="0" name="Object">Carrot</param>
+                </condition>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="6333863795329307" type="FoodSpawner">
+                    <param id="0" name="Object">Grape</param>
+                </condition>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="4369233629024614" type="FoodSpawner">
+                    <param id="0" name="Object">Orange</param>
+                </condition>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="6642333042919338" type="FoodSpawner">
+                    <param id="0" name="Object">WaterMelon</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="8436626701034916" type="FoodSpawner">
+                    <param id="0" name="Instance variable">fruitChoice</param>
+                    <param id="1" name="Value">round(random(1,6))</param>
+                </action>
+                <action id="-16" name="Wait" sid="1456618314063652" type="System">
+                    <param id="0" name="Seconds">5.0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="360639364876948">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2681126639685809" type="FoodSpawner">
+                            <param id="0" name="Instance variable">fruitChoice</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="7702696594068804" type="FoodSpawner">
+                            <param id="0" name="Object">Banana</param>
+                            <param id="1" name="Layer">2</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="4107825198980432" type="FoodSpawner">
+                            <param id="0" name="Instance variable">fruitChoice</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5603120374614078">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="6706094718301116" type="FoodSpawner">
+                            <param id="0" name="Instance variable">fruitChoice</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="2316535411800023" type="FoodSpawner">
+                            <param id="0" name="Object">Carrot</param>
+                            <param id="1" name="Layer">2</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="8742328146107812" type="FoodSpawner">
+                            <param id="0" name="Instance variable">fruitChoice</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5589222709291283">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8457292762221956" type="FoodSpawner">
+                            <param id="0" name="Instance variable">fruitChoice</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="654948434097292" type="FoodSpawner">
+                            <param id="0" name="Object">Grape</param>
+                            <param id="1" name="Layer">2</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="8931992565312914" type="FoodSpawner">
+                            <param id="0" name="Instance variable">fruitChoice</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1938812929207951">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4446090357226224" type="FoodSpawner">
+                            <param id="0" name="Instance variable">fruitChoice</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="3364812629011683" type="FoodSpawner">
+                            <param id="0" name="Object">Orange</param>
+                            <param id="1" name="Layer">2</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="7641856376788237" type="FoodSpawner">
+                            <param id="0" name="Instance variable">fruitChoice</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1345877537040361">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="1638053580784203" type="FoodSpawner">
+                            <param id="0" name="Instance variable">fruitChoice</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="9154112482945781" type="FoodSpawner">
+                            <param id="0" name="Object">WaterMelon</param>
+                            <param id="1" name="Layer">2</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="5889368430403234" type="FoodSpawner">
+                            <param id="0" name="Instance variable">fruitChoice</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9778004471453051">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="9535823515299011" type="FoodSpawner">
+                            <param id="0" name="Instance variable">fruitChoice</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="4977616022158586" type="FoodSpawner">
+                            <param id="0" name="Object">Apple</param>
+                            <param id="1" name="Layer">2</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="5677802650828903" type="FoodSpawner">
+                            <param id="0" name="Instance variable">fruitChoice</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="660262649516572">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="4945977161141672" type="Player2">
+                    <param id="0" name="Object">Banana</param>
+                </condition>
+                <condition id="7" name="Compare size" sid="4201257959055753" type="Player2Fruit">
+                    <param id="0" name="Axis">0</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="2580384886047782">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="6205675649381445" type="Gamepad">
+                            <param id="0" name="Gamepad">1</param>
+                            <param id="1" name="Button">2</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="8403762537842171" type="Keyboard">
+                            <param id="0" name="Key">17 (Ctrl)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Push" sid="523453197925309" type="Player2Fruit">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">10</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="6014222924524348" type="Banana" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3103562161658282">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="8869903224507024" type="Player2">
+                    <param id="0" name="Object">Carrot</param>
+                </condition>
+                <condition id="7" name="Compare size" sid="3987105609808749" type="Player2Fruit">
+                    <param id="0" name="Axis">0</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="4460069277435299">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="336652358927348" type="Gamepad">
+                            <param id="0" name="Gamepad">1</param>
+                            <param id="1" name="Button">2</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="8471272047710119" type="Keyboard">
+                            <param id="0" name="Key">17 (Ctrl)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Push" sid="2885178913682458" type="Player2Fruit">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">8</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="2286291785134045" type="Carrot" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3309735885790768">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="9056961942410916" type="Player2">
+                    <param id="0" name="Object">Grape</param>
+                </condition>
+                <condition id="7" name="Compare size" sid="9371851027002779" type="Player2Fruit">
+                    <param id="0" name="Axis">0</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="7669707050615196">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="7458780068009837" type="Gamepad">
+                            <param id="0" name="Gamepad">1</param>
+                            <param id="1" name="Button">2</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="475046820274526" type="Keyboard">
+                            <param id="0" name="Key">17 (Ctrl)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Push" sid="7161509322118579" type="Player2Fruit">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">5</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="8694065485346849" type="Grape" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="7800873650549084">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="6087659589310334" type="Player2">
+                    <param id="0" name="Object">Orange</param>
+                </condition>
+                <condition id="7" name="Compare size" sid="4643875960178844" type="Player2Fruit">
+                    <param id="0" name="Axis">0</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="8643630497952661">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="6520649326260849" type="Gamepad">
+                            <param id="0" name="Gamepad">1</param>
+                            <param id="1" name="Button">2</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="587745580198335" type="Keyboard">
+                            <param id="0" name="Key">17 (Ctrl)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Push" sid="9719906590969766" type="Player2Fruit">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">12</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="9855523612111044" type="Orange" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="7934716298298005">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="1086113442883759" type="Player2">
+                    <param id="0" name="Object">WaterMelon</param>
+                </condition>
+                <condition id="7" name="Compare size" sid="5722029393780985" type="Player2Fruit">
+                    <param id="0" name="Axis">0</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="1737660875329843">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="8462458029446522" type="Gamepad">
+                            <param id="0" name="Gamepad">1</param>
+                            <param id="1" name="Button">2</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="8173431952174801" type="Keyboard">
+                            <param id="0" name="Key">17 (Ctrl)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Push" sid="744360564192549" type="Player2Fruit">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">20</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="2565923700164946" type="WaterMelon" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3375758134656712">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="3087091705395856" type="Player2">
+                    <param id="0" name="Object">Apple</param>
+                </condition>
+                <condition id="7" name="Compare size" sid="6684937849501091" type="Player2Fruit">
+                    <param id="0" name="Axis">0</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="5767182405803528">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="2930854329397472" type="Gamepad">
+                            <param id="0" name="Gamepad">1</param>
+                            <param id="1" name="Button">2</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="1387480556800234" type="Keyboard">
+                            <param id="0" name="Key">17 (Ctrl)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Push" sid="9810516572341623" type="Player2Fruit">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">15</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="5520551574457065" type="Apple" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5943877773663233">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="2076610065797682" type="Player">
+                    <param id="0" name="Object">Banana</param>
+                </condition>
+                <condition id="7" name="Compare size" sid="2506414638492625" type="Player1Fruit">
+                    <param id="0" name="Axis">0</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="1334814473674153">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="6686231053198599" type="Gamepad">
+                            <param id="0" name="Gamepad">0</param>
+                            <param id="1" name="Button">2</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="6962188148830949" type="Keyboard">
+                            <param id="0" name="Key">81 (Q)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Push" sid="1447709318080227" type="Player1Fruit">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">10</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="2436597373237104" type="Banana" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="2048184409467934">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="2951975590519467" type="Player">
+                    <param id="0" name="Object">Carrot</param>
+                </condition>
+                <condition id="7" name="Compare size" sid="1442049230115601" type="Player1Fruit">
+                    <param id="0" name="Axis">0</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="5271786461521324">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="5218241215711639" type="Gamepad">
+                            <param id="0" name="Gamepad">0</param>
+                            <param id="1" name="Button">2</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="276291939781946" type="Keyboard">
+                            <param id="0" name="Key">81 (Q)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Push" sid="6345167512557308" type="Player1Fruit">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">8</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="6285455811596301" type="Carrot" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5003641649643063">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="2447220843840486" type="Player">
+                    <param id="0" name="Object">Grape</param>
+                </condition>
+                <condition id="7" name="Compare size" sid="5318271597179474" type="Player1Fruit">
+                    <param id="0" name="Axis">0</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="5234937897008306">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="2224287738757635" type="Gamepad">
+                            <param id="0" name="Gamepad">0</param>
+                            <param id="1" name="Button">2</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="352207846599168" type="Keyboard">
+                            <param id="0" name="Key">81 (Q)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Push" sid="4511921464602331" type="Player1Fruit">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">5</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="8145515979029519" type="Grape" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4994817883910391">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="4352743601120156" type="Player">
+                    <param id="0" name="Object">Orange</param>
+                </condition>
+                <condition id="7" name="Compare size" sid="2077191835928332" type="Player1Fruit">
+                    <param id="0" name="Axis">0</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="2653054679925438">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="9852458817943465" type="Gamepad">
+                            <param id="0" name="Gamepad">0</param>
+                            <param id="1" name="Button">2</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="1536682886832297" type="Keyboard">
+                            <param id="0" name="Key">81 (Q)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Push" sid="7487888424926103" type="Player1Fruit">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">12</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="619281187315654" type="Orange" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5356975160393381">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="1385276610128195" type="Player">
+                    <param id="0" name="Object">WaterMelon</param>
+                </condition>
+                <condition id="7" name="Compare size" sid="6037684207767877" type="Player1Fruit">
+                    <param id="0" name="Axis">0</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="9358544741248769">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="6653442814530876" type="Gamepad">
+                            <param id="0" name="Gamepad">0</param>
+                            <param id="1" name="Button">2</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="6839125572630285" type="Keyboard">
+                            <param id="0" name="Key">81 (Q)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Push" sid="2326194801210691" type="Player1Fruit">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">20</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="9289311434654367" type="WaterMelon" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="2907569572675016">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="9584654131972485" type="Player">
+                    <param id="0" name="Object">Apple</param>
+                </condition>
+                <condition id="7" name="Compare size" sid="2589931753535409" type="Player1Fruit">
+                    <param id="0" name="Axis">0</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="7979962973567393">
+                    <conditions>
+                        <condition id="6" name="On button pressed" sid="5320971971678984" type="Gamepad">
+                            <param id="0" name="Gamepad">0</param>
+                            <param id="1" name="Button">2</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="4448496497813045" type="Keyboard">
+                            <param id="0" name="Key">81 (Q)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Push" sid="3543847694142042" type="Player1Fruit">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">15</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="1599695206056209" type="Apple" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="9256747694561664">
+            <conditions>
+                <condition id="3" name="On key released" sid="6100994016339201" type="Keyboard">
+                    <param id="0" name="Key">16 (Shift)</param>
+                </condition>
+                <condition id="6" name="On button pressed" sid="8295278491165795" type="Gamepad">
+                    <param id="0" name="Gamepad">1</param>
+                    <param id="1" name="Button">7</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="3460302485598003">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2746679428760026" type="Player2">
+                            <param id="0" name="Instance variable">fireTimer</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="7984316278410208" type="Player2">
+                            <param id="0" name="Instance variable">fireTimer</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="5773739303847985">
+                            <conditions>
+                                <condition id="0" name="Compare at X" sid="9024176057468234" type="Player2Fruit">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">10</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="6" name="Pop" sid="9472325150004408" type="Player2Fruit">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="4222993969810334" type="Player2">
+                                    <param id="0" name="Object">Banana_Bullet</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="6893454964746157">
+                                    <conditions>
+                                        <condition id="7" name="Is mirrored" sid="4695578469777494" type="Player2" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="7969821591356357" type="Banana_Bullet">
+                                            <param id="0" name="Angle">180</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="2809062546949694" type="System">
+                                            <param id="0" name="Seconds">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="7724099476724966" type="Banana_Bullet">
+                                            <param id="0" name="Angle">Banana_Bullet.Angle - 180</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="1684967664164031">
+                                    <conditions>
+                                        <condition id="7" inverted="1" name="Is mirrored" sid="9601205687032414" type="Player2" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="8192923813527837" type="Banana_Bullet">
+                                            <param id="0" name="Angle">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="2259675925116015" type="System">
+                                            <param id="0" name="Seconds">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="2210134827412705" type="Banana_Bullet">
+                                            <param id="0" name="Angle">Banana_Bullet.Angle - 180</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="1316579062516039">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="951599350245302" type="System" />
+                                <condition id="0" name="Compare at X" sid="6755241270641125" type="Player2Fruit">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">8</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="6" name="Pop" sid="3988185433507389" type="Player2Fruit">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="8623973458118297" type="Player2">
+                                    <param id="0" name="Object">Carrot_Bullet</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="7991531562513748">
+                                    <conditions>
+                                        <condition id="7" name="Is mirrored" sid="7574911290002204" type="Player2" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="5131614392081422" type="Carrot_Bullet">
+                                            <param id="0" name="Angle">180</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="5071650707141336">
+                                    <conditions>
+                                        <condition id="7" inverted="1" name="Is mirrored" sid="164071031851284" type="Player2" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="6578396535874211" type="Carrot_Bullet">
+                                            <param id="0" name="Angle">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="4824623488166428">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="8240150237830197" type="System" />
+                                <condition id="0" name="Compare at X" sid="5103432066624543" type="Player2Fruit">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="6" name="Pop" sid="9674207943297722" type="Player2Fruit">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="2112337691517143">
+                                    <conditions>
+                                        <condition id="7" name="Is mirrored" sid="9388635687630787" type="Player2" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="8801591051505737" type="Player2">
+                                            <param id="0" name="Object">Grape_Bullet</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="Image point">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="8981800761166998" type="Grape_Bullet">
+                                            <param id="0" name="Angle">195</param>
+                                        </action>
+                                        <action id="0" name="Spawn another object" sid="6684221155179958" type="Player2">
+                                            <param id="0" name="Object">Grape_Bullet</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="Image point">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="2873995558439104" type="Grape_Bullet">
+                                            <param id="0" name="Angle">180</param>
+                                        </action>
+                                        <action id="0" name="Spawn another object" sid="6961633959736382" type="Player2">
+                                            <param id="0" name="Object">Grape_Bullet</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="Image point">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="4172644744301775" type="Grape_Bullet">
+                                            <param id="0" name="Angle">165</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="9445764685746442">
+                                    <conditions>
+                                        <condition id="7" inverted="1" name="Is mirrored" sid="9741984443320318" type="Player2" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="4969894744449287" type="Player2">
+                                            <param id="0" name="Object">Grape_Bullet</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="Image point">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="2186689465604634" type="Grape_Bullet">
+                                            <param id="0" name="Angle">-15</param>
+                                        </action>
+                                        <action id="0" name="Spawn another object" sid="6825149096332662" type="Player2">
+                                            <param id="0" name="Object">Grape_Bullet</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="Image point">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="4883652066541141" type="Grape_Bullet">
+                                            <param id="0" name="Angle">0</param>
+                                        </action>
+                                        <action id="0" name="Spawn another object" sid="4502667736963478" type="Player2">
+                                            <param id="0" name="Object">Grape_Bullet</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="Image point">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="2830214230725707" type="Grape_Bullet">
+                                            <param id="0" name="Angle">15</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="8496246580788697">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="6097695530071159" type="System" />
+                                <condition id="0" name="Compare at X" sid="5628623568435643" type="Player2Fruit">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">12</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="6" name="Pop" sid="4795991755346847" type="Player2Fruit">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="9295815590874484" type="Player2">
+                                    <param id="0" name="Object">Orange_Bullet</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4887035854613065">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="8459178386125521" type="System" />
+                                <condition id="0" name="Compare at X" sid="6540477760131177" type="Player2Fruit">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">20</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="6" name="Pop" sid="5260363294382603" type="Player2Fruit">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="3994097876271437" type="Player2">
+                                    <param id="0" name="Object">WaterMelon_Bullet</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="9855498026917346" type="System">
+                                    <param id="0" name="Seconds">3.0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="9834113278110056" type="WaterMelon_Bullet">
+                                    <param id="0" name="Object">WaterMelon_Explosion</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="7952859931955066" type="WaterMelon_Bullet" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="9091982777698347">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="7201887165400569" type="System" />
+                                <condition id="0" name="Compare at X" sid="339144264171879" type="Player2Fruit">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="6" name="Pop" sid="1985042439392553" type="Player2Fruit">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="408120356594671" type="Player2">
+                                    <param id="0" name="Object">Apple_Bullet</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="2089823532331871">
+                                    <conditions>
+                                        <condition id="7" name="Is mirrored" sid="3311389167044922" type="Player2" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="20164668093556" type="Apple_Bullet">
+                                            <param id="0" name="Angle">-135</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="1679178556823152">
+                                    <conditions>
+                                        <condition id="7" inverted="1" name="Is mirrored" sid="2438799154198977" type="Player2" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="1179214245981979" type="Apple_Bullet">
+                                            <param id="0" name="Angle">-45</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5567860165699506">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="583634912276378" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block any="1" sid="1388689788865977">
+            <conditions>
+                <condition id="3" name="On key released" sid="7206168114695838" type="Keyboard">
+                    <param id="0" name="Key">32 (Space)</param>
+                </condition>
+                <condition id="6" name="On button pressed" sid="7820552991602968" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Button">7</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="9528212909810239">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5331413352237607" type="Player">
+                            <param id="0" name="Instance variable">fireTimer</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="226380161451611" type="Player">
+                            <param id="0" name="Instance variable">fireTimer</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="8487090731728476">
+                            <conditions>
+                                <condition id="0" name="Compare at X" sid="1507489901869685" type="Player1Fruit">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">10</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="6" name="Pop" sid="2327245690354527" type="Player1Fruit">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="5022563027730604" type="Player">
+                                    <param id="0" name="Object">Banana_Bullet</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="2383720762654563">
+                                    <conditions>
+                                        <condition id="7" name="Is mirrored" sid="672047824206645" type="Player" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="1156717119871098" type="Banana_Bullet">
+                                            <param id="0" name="Angle">180</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="9173433790192018" type="System">
+                                            <param id="0" name="Seconds">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="4589118077864304" type="Banana_Bullet">
+                                            <param id="0" name="Angle">Banana_Bullet.Angle - 180</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="8555635970831073">
+                                    <conditions>
+                                        <condition id="7" inverted="1" name="Is mirrored" sid="9659936811277603" type="Player" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="7380043623239465" type="Banana_Bullet">
+                                            <param id="0" name="Angle">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="2603077373283888" type="System">
+                                            <param id="0" name="Seconds">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="7221729309635203" type="Banana_Bullet">
+                                            <param id="0" name="Angle">Banana_Bullet.Angle - 180</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="4908362141850088">
+                            <conditions>
+                                <condition id="0" name="Compare at X" sid="5329353263119982" type="Player1Fruit">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">8</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="6" name="Pop" sid="6061571448964243" type="Player1Fruit">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="5938886239086351" type="Player">
+                                    <param id="0" name="Object">Carrot_Bullet</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="8070185276968913">
+                                    <conditions>
+                                        <condition id="7" name="Is mirrored" sid="2164487301251031" type="Player" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="8673428077232591" type="Carrot_Bullet">
+                                            <param id="0" name="Angle">180</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="8756327822644617">
+                                    <conditions>
+                                        <condition id="7" inverted="1" name="Is mirrored" sid="2509530007933244" type="Player" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="9474023249073142" type="Carrot_Bullet">
+                                            <param id="0" name="Angle">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="9629758847924193">
+                            <conditions>
+                                <condition id="0" name="Compare at X" sid="5594764731754913" type="Player1Fruit">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="6" name="Pop" sid="8776980909182772" type="Player1Fruit">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="1141644436882138">
+                                    <conditions>
+                                        <condition id="7" name="Is mirrored" sid="9887817353227265" type="Player" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="1776483524768296" type="Player">
+                                            <param id="0" name="Object">Grape_Bullet</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="Image point">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="7065066077884725" type="Grape_Bullet">
+                                            <param id="0" name="Angle">195</param>
+                                        </action>
+                                        <action id="0" name="Spawn another object" sid="8954696779124053" type="Player">
+                                            <param id="0" name="Object">Grape_Bullet</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="Image point">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="9791305845217116" type="Grape_Bullet">
+                                            <param id="0" name="Angle">180</param>
+                                        </action>
+                                        <action id="0" name="Spawn another object" sid="9344327433646737" type="Player">
+                                            <param id="0" name="Object">Grape_Bullet</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="Image point">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="7882598129163115" type="Grape_Bullet">
+                                            <param id="0" name="Angle">165</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="1451481962972886">
+                                    <conditions>
+                                        <condition id="7" inverted="1" name="Is mirrored" sid="9005696481172433" type="Player" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="7558125421294764" type="Player">
+                                            <param id="0" name="Object">Grape_Bullet</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="Image point">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="478234163757163" type="Grape_Bullet">
+                                            <param id="0" name="Angle">-15</param>
+                                        </action>
+                                        <action id="0" name="Spawn another object" sid="1954616327654833" type="Player">
+                                            <param id="0" name="Object">Grape_Bullet</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="Image point">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="3348527319942635" type="Grape_Bullet">
+                                            <param id="0" name="Angle">0</param>
+                                        </action>
+                                        <action id="0" name="Spawn another object" sid="7382453570194713" type="Player">
+                                            <param id="0" name="Object">Grape_Bullet</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="Image point">1</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="5831000136336899" type="Grape_Bullet">
+                                            <param id="0" name="Angle">15</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="1459546569515409">
+                            <conditions>
+                                <condition id="0" name="Compare at X" sid="706452931586427" type="Player1Fruit">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">12</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="6" name="Pop" sid="5841341661522459" type="Player1Fruit">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="7657993518164395" type="Player">
+                                    <param id="0" name="Object">Orange_Bullet</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5715619677870435">
+                            <conditions>
+                                <condition id="0" name="Compare at X" sid="4296673157091827" type="Player1Fruit">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">20</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="6" name="Pop" sid="7064874629000024" type="Player1Fruit">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="3538544571980326" type="Player">
+                                    <param id="0" name="Object">WaterMelon_Bullet</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="7554347661008877" type="System">
+                                    <param id="0" name="Seconds">3.0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="5625017314080417" type="WaterMelon_Bullet">
+                                    <param id="0" name="Object">WaterMelon_Explosion</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="6381856791551752" type="WaterMelon_Bullet" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="7094612481715803">
+                            <conditions>
+                                <condition id="0" name="Compare at X" sid="7663621662901625" type="Player1Fruit">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="6" name="Pop" sid="9290380141331456" type="Player1Fruit">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="7469161921369539" type="Player">
+                                    <param id="0" name="Object">Apple_Bullet</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="1816229380661044">
+                                    <conditions>
+                                        <condition id="7" name="Is mirrored" sid="4931332689399234" type="Player" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="3542620610550498" type="Apple_Bullet">
+                                            <param id="0" name="Angle">-135</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="6722374144764868">
+                                    <conditions>
+                                        <condition id="7" inverted="1" name="Is mirrored" sid="1135151699703538" type="Player" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="6106193280052265" type="Apple_Bullet">
+                                            <param id="0" name="Angle">-45</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="7940133906883062">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="587223842628016" type="Player">
+                    <param id="0" name="Instance variable">StunTimer</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="0" name="Set ignoring input" sid="9434382611515625" type="Player">
+                    <param id="0" name="Input">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block any="1" sid="6049491820137995">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="3059785823717246" type="Player">
+                            <param id="0" name="Object">Apple_Bullet</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="7442874755810699" type="Player">
+                            <param id="0" name="Object">Banana_Bullet</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="2801855835756476" type="Player">
+                            <param id="0" name="Object">Carrot_Bullet</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="5986535949525381" type="Player">
+                            <param id="0" name="Object">Grape_Bullet</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="1185704323739709" type="Player">
+                            <param id="0" name="Object">Orange_Bullet</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="2611451552647818" type="Player">
+                            <param id="0" name="Object">WaterMelon_Explosion</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="1201444604024877" type="Player">
+                            <param id="0" name="Instance variable">StunTimer</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="6256629679024934" type="Player">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                        <action behavior="Flash" id="0" name="Flash" sid="4584989102622326" type="Player">
+                            <param id="0" name="&apos;On&apos; time">0.1</param>
+                            <param id="1" name="&apos;Off&apos; time">0.1</param>
+                            <param id="2" name="Duration">3</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="6849481561466813" type="Player1_Info">
+                            <param id="0" name="Instance variable">Score</param>
+                            <param id="1" name="Value">Player1_Info.Score*0.8</param>
+                        </action>
+                        <action id="0" name="Clear" sid="5757145070685317" type="Player1Fruit" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="8579664149190993">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="3219827445851123" type="Player2">
+                    <param id="0" name="Instance variable">StunTimer</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="0" name="Set ignoring input" sid="5100571829063458" type="Player2">
+                    <param id="0" name="Input">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block any="1" sid="5182116642420258">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="6429246621291352" type="Player2">
+                            <param id="0" name="Object">Apple_Bullet</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="6330256888508865" type="Player2">
+                            <param id="0" name="Object">Banana_Bullet</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="5344733487438291" type="Player2">
+                            <param id="0" name="Object">Carrot_Bullet</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="6317021117606558" type="Player2">
+                            <param id="0" name="Object">Grape_Bullet</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="6779512915354992" type="Player2">
+                            <param id="0" name="Object">Orange_Bullet</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="6932797407371044" type="Player2">
+                            <param id="0" name="Object">WaterMelon_Explosion</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="9302280109833219" type="Player2">
+                            <param id="0" name="Instance variable">StunTimer</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="4859861447123832" type="Player2">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                        <action behavior="Flash" id="0" name="Flash" sid="1894497674889187" type="Player2">
+                            <param id="0" name="&apos;On&apos; time">0.1</param>
+                            <param id="1" name="&apos;Off&apos; time">0.1</param>
+                            <param id="2" name="Duration">3.0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="7400819319374485" type="Player2_Info">
+                            <param id="0" name="Instance variable">Score</param>
+                            <param id="1" name="Value">Player2_Info.Score*0.8</param>
+                        </action>
+                        <action id="0" name="Clear" sid="2827024684164957" type="Player2Fruit" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3269573007799506">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="6785697110745504" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Subtract from" sid="3308191862158549" type="Orange_Bullet">
+                    <param id="0" name="Instance variable">ExpirationDate</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-12" name="Subtract from" sid="3051354187861905" type="CountDown">
+                    <param id="0" name="Instance variable">Time</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="7531649417240128" type="CountDown">
+                    <param id="0" name="Text">CountDown.Time</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="1439589402939685">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="1128678619037483" type="Player2">
+                            <param id="0" name="Instance variable">StunTimer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="7207548909399063" type="Player2">
+                            <param id="0" name="Instance variable">StunTimer</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1815566609394507">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2229743360568633" type="Player">
+                            <param id="0" name="Instance variable">StunTimer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="8759967874922821" type="Player">
+                            <param id="0" name="Instance variable">StunTimer</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="824795284178997">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5193477358364674" type="Player">
+                            <param id="0" name="Instance variable">fireTimer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="1807119446589931" type="Player">
+                            <param id="0" name="Instance variable">fireTimer</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2155989447971173">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2404546491468543" type="Player2">
+                            <param id="0" name="Instance variable">fireTimer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="2463622244424153" type="Player2">
+                            <param id="0" name="Instance variable">fireTimer</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="494448411351798">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="7324430201113271" type="Player2">
+                    <param id="0" name="Object">Cashier</param>
+                </condition>
+                <condition id="3" name="Is button down" sid="8425465293227649" type="Gamepad">
+                    <param id="0" name="Gamepad">1</param>
+                    <param id="1" name="Button">2</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="9652555049112967">
+                    <conditions>
+                        <condition id="3" name="For each element" sid="4464632881285819" type="Player2Fruit">
+                            <param id="0" name="Axes">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="221296679377133" type="Player2_Info">
+                            <param id="0" name="Instance variable">Score</param>
+                            <param id="1" name="Value">Player2_Info.Score + Player2Fruit.CurValue</param>
+                        </action>
+                        <action id="6" name="Pop" sid="9564416304486054" type="Player2Fruit">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="0" name="Set text" sid="7651450341318899" type="Player2_Info">
+                            <param id="0" name="Text">Player2_Info.Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4041162827122552">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="2248705810094569" type="Player">
+                    <param id="0" name="Object">Cashier</param>
+                </condition>
+                <condition id="3" name="Is button down" sid="4363048360836909" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Button">2</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="4069001410320508">
+                    <conditions>
+                        <condition id="3" name="For each element" sid="3071668726576637" type="Player1Fruit">
+                            <param id="0" name="Axes">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="3228934864999407" type="Player1_Info">
+                            <param id="0" name="Instance variable">Score</param>
+                            <param id="1" name="Value">Player1_Info.Score + Player1Fruit.CurValue</param>
+                        </action>
+                        <action id="6" name="Pop" sid="632866082694208" type="Player1Fruit">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="0" name="Set text" sid="9322143850338308" type="Player1_Info">
+                            <param id="0" name="Text">Player1_Info.Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="1495672410684933">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="5646553209916409" type="System" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="9579162721061804" type="Player1_Info">
+                    <param id="0" name="Instance variable">Score</param>
+                    <param id="1" name="Value">round(Player1_Info.Score)</param>
+                </action>
+                <action id="-10" name="Set value" sid="5478007352719622" type="Player2_Info">
+                    <param id="0" name="Instance variable">Score</param>
+                    <param id="1" name="Value">round(Player2_Info.Score)</param>
+                </action>
+                <action id="0" name="Set text" sid="6641669764436114" type="Player1_Info">
+                    <param id="0" name="Text">&quot;Score: &quot;&amp; Player1_Info.Score</param>
+                </action>
+                <action id="0" name="Set text" sid="7328689333748962" type="Player2_Info">
+                    <param id="0" name="Text">&quot;Score: &quot;&amp;Player2_Info.Score</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="7387732797856443">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7149051014422401" type="Orange_Bullet">
+                            <param id="0" name="Instance variable">ExpirationDate</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="9939701487676093" type="Orange_Bullet" />
+                    </actions>
+                </event-block>
+                <event-block sid="1627662462863231">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="9760739217320737" type="CountDown">
+                            <param id="0" name="Instance variable">Time</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1185459922309873" type="CountDown">
+                            <param id="0" name="Text">&quot;GAME OVER&quot;</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="9163830891127854" type="Player">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="9430024917311792" type="Player2">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="7691286802788948" type="System">
+                            <param id="0" name="Seconds">10</param>
+                        </action>
+                        <action id="-25" name="Go to layout (by name)" sid="301188447454489" type="System">
+                            <param id="0" name="Layout">&quot;TitleScreen&quot;</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="2722377112778919">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="6511563698073907" type="Player1_Info">
+                                    <param id="0" name="Instance variable">Score</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">Player2_Info.Score</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="4561263926085978" type="CountDown">
+                                    <param id="0" name="Text">&quot;Player 2 Wins&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6971758682697058">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="2246996805643551" type="Player2_Info">
+                                    <param id="0" name="Instance variable">Score</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">Player1_Info.Score</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="4454794087179153" type="CountDown">
+                                    <param id="0" name="Text">&quot;Player 1 Wins&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="7449090296309174">
+            <conditions>
+                <condition behavior="Platform" id="2" name="Is on floor" sid="9423128291728524" type="Player2" />
+                <condition behavior="Platform" id="0" name="Is moving" sid="544076366318643" type="Player2" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="9437551518944719" type="Player2">
+                    <param id="0" name="Animation">&quot;Walking&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4552063116333868">
+            <conditions>
+                <condition behavior="Platform" id="2" name="Is on floor" sid="7535866715320323" type="Player" />
+                <condition behavior="Platform" id="0" name="Is moving" sid="7542374386952843" type="Player" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="642197646178552" type="Player">
+                    <param id="0" name="Animation">&quot;Walking&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="3653406045553911">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="5053522358667475" type="Orange_Bullet">
+                    <param id="0" name="Object">Player</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="1407554745595487" type="Orange_Bullet">
+                    <param id="0" name="Object">Player2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="5040136814159912" type="Orange_Bullet">
+                    <param id="0" name="Instance variable">ExpirationDate</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2543723430802469">
+            <conditions>
+                <condition id="0" name="On clicked" sid="8309550129118829" type="PlayBtn" />
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="9703530272333607" type="System">
+                    <param id="0" name="Layout">&quot;MainGame&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
